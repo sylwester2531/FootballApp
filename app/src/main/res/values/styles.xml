@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#0077ff</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#FF0077FF</item>
+    </style>
+    <style name="YellowButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">#f9d603</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:text"></item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="RedButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">#f90303</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:text"></item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="backgroundCourt">
+        <item name="android:background">@drawable/background_court</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>
